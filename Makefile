@@ -3,13 +3,15 @@ OBJ = build/main.o build/funks.o
 OB = build/main_test.o build/funks.o
 FUNCS = src/funks.c
 
-default: build bin bin/game bin/game-test run clean
+default: build bin bin/game bin/game-test clean
 
 test: bin/game-test
 	./bin/game-test
 
-run: bin/game
+run1: bin/game
 	./bin/game
+
+run2: bin/game-test
 	./bin/game-test
 
 bin/game: $(OBJ) bin
