@@ -1,1 +1,1 @@
-https://travis-ci.org/yakovkaizer/cours.svg?branch=master
+https://travis-ci.org/yakovkaizer/final_course.svg?branch=master
